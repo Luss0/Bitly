@@ -1,0 +1,151 @@
+.App {
+  font-family: Helvetica;
+  color: white;
+  height: 500px;;
+  text-align: center;
+  background: url('./background-image.png');
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position-y: 8%;
+  background-position-x: 55%;
+}
+
+a {
+  margin-top: 3%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 1.5em;
+}
+
+.WideDiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.Logo {
+  width: 10%;
+  height: 10%;
+  margin-right: 3%;
+}
+
+input { 
+  width: 35%;
+  height: 45px;
+  padding-left: 1%;
+  border-radius: 2px;
+  border-style: hidden;
+}
+
+input:focus {
+  border-color: #ee6123;
+  background-color: #f7e8e2;
+  border-width: thin;
+  border-style: solid;
+}
+
+button {
+  font-family: Helvetica;
+  font-size: 12%;
+  width: 90px;
+  height: 49px;
+  background-color: #ee6123;
+  color: white;
+  vertical-align: top;
+  border-color: #ee6123;
+  border-radius: 2px;
+}
+
+.Navbar {
+  font-size: 70%;
+}
+
+.Tagline {
+  margin-top: 7%;
+  margin-bottom: 1%;
+  font-size: 200%;
+}
+
+.Subtitle {
+  font-size: 80%;
+  letter-spacing: 1px;
+  margin-bottom: 3%;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: white;
+}
+
+.LinkList {
+  margin: auto;
+  background-color: white;
+  width: 46%;
+  height: auto;
+}
+
+.Title {
+  color: #444444;
+  text-align: left;
+  font-size: 80%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.Title:hover {
+  text-decoration: underline;
+}
+
+.LongURL {
+  color: #9b9b9b;
+  text-align: left;
+  font-size: 70%;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  overflow-wrap: break-word;
+}
+
+.LongURL:hover {
+  text-decoration: underline;
+}
+
+.ShortURL {
+  color: #ee6123;
+  font-size: 70%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.Clicks {
+  color: #9b9b9b;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.Clicks:hover {
+  text-decoration: underline;
+}
+
+.ClickLogo {
+  width: 3%;
+  height: 3%;
+  margin-left: 2px;
+}
+
+.Break {
+  background-color: #9b9b9b;
+  height: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Bitlink {
+  margin: 41px;
+  border-radius: 2px;
+}
+
+.InputButton {
+  
+}
